@@ -1,0 +1,130 @@
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.wrap h2 {
+	margin-bottom: 20px;
+}
+
+.spotim_table.widefat {
+	width: 600px;
+}
+
+.spotim_table .spotim-spot-hidden {
+	display: none;
+	border-top: solid 1px #dbdbdb;
+	margin: 15px 0px 0px;
+	padding: 10px 0px 0px;
+}
+
+.spotim_table .spotim-spot-show .spot-btn {
+	float: right;
+	margin-left: 15px;
+}
+
+.spotim_table .spotim_textarea {
+	width: 100%;
+	height: 120px;
+}
+
+.spotim_table .spotim_title {
+	width: 100%;
+}
+
+.spotim_table thead th,
+.spotim_table tfoot th {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.spotim_table tbody th.check-column {
+	padding-top: 26px;
+	border-bottom: solid 1px #dbdbdb;
+}
+
+.spotim_table tbody td {
+	padding: 20px;
+	border-bottom: solid 1px #dbdbdb;
+}
+
+.spotim_table tbody tr:nth-child(odd) {
+	background: #f9f9f9;
+}
+
+.spotim_table tbody tr:last-child td,
+.spotim_table tbody tr:last-child th.check-column {
+	border-bottom: 0;
+}
+
+.spotim_table .spotim-spot-box {
+
+}
+
+.spotim_table .spotim-spot-box.spotim-spot-box1 {
+}
+
+.spotim_table .spotim-spot-box:first-child {
+}
+
+.spotim_table .spotim_spot .inp-box {
+	padding: 10px 0px;
+}
+
+.spotim_table .spotim_spot .inp-box:first-child {
+	padding-top: 0px;
+}
+
+.spotim_table .spotim_spot .inp-box label {
+	width: 150px;
+	font-size: 14px;
+	font-weight: 600;
+	display: block;
+	padding: 5px;
+}
+
+.spotim_table .spotim_spot .ajax-status {
+	display: none;
+}
+
+.spotim_table .spot-rules-box .spot-rules,
+.spotim_table .spot-rules-box .spot-sub-rules {
+	width: 200px;
+	float: left;
+	margin: 0px 10px 10px 0px;
+}
+
+.spotim_table .spot-rules-box .spot-rules select,
+.spotim_table .spot-rules-box .spot-sub-rules select {
+	width: 100%;
+}
+
+.spotim_table .spot-rules-box .spot-rules-equal {
+	float: left;
+	margin: 0px 10px 10px 0px;
+}
+
+.spotim_table .spot-rules-box .spot-rules-equal-hidden {
+	display: none;
+}
+
+
+/* rtl */
+
+.rtl .spotim_table .spotim-spot-show .spot-btn {
+	float: left;
+	margin-right: 15px;
+}
+
+.rtl .spotim_table .spot-rules-box .spot-rules,
+.rtl .spotim_table .spot-rules-box .spot-sub-rules {
+	width: 200px;
+	float: right;
+	margin: 0px 0px 10px 10px;
+}
+
+.rtl .spotim_table .spot-rules-box .spot-rules-equal {
+	float: right;
+	margin: 0px 0px 10px 10px;
+}
